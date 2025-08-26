@@ -1,0 +1,19 @@
+alunos = ["Ana", "Pedro", "Lucas", "Maria"]
+
+for aluno in alunos:
+    print("Presente:", aluno)
+   
+senha = input("numero: ")
+
+if len(senha) == 8:
+    resultado = "Senha válida!"
+    print(resultado)
+else:
+    resultado = "Errado"
+    print(resultado)
+    senha = input("Digite sua senha: ")
+
+if len(senha) == 8:
+    print("Senha válida!")
+else:
+    print("Senha inválida! Deve conter exatamente 8 caracteres.")
